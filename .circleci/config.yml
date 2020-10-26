@@ -13,7 +13,7 @@ jobs:
           command: npm run test
       - run:
           name: Deploy
-          command: echo "deploy to host"
+          command: echo "deploy"
       - run:
           name: Run Functional Tests
-          command: echo "functional tests"   
+          command: echo "functional tests"
